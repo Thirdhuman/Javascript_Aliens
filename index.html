@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ALIENS-R-UR-FRIENDS</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background-color: unset;
+    }
+
+    th,
+    td {
+      text-align: left;
+      padding: 8px;
+    }
+
+    tbody>tr:nth-child(even) {
+      background-color: #000000 !important
+    }
+
+    tbody>tr:nth-child(odd) {
+      background-color: #000000 !important
+    }
+
+    /* th {background-color: #2f3439; color: white;} */
+  </style>
+</head>
+
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h1>Aliens-R-Real.com</h1>
+      </div>
+      <div class="col-text-right-4">
+        <p>
+          <img src="Alien-hack-master.png" alt="HE IZ UR FRIEND" style="float:right;" />
+        </p>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="form-group">
+        <label>Country?</label>
+        <input type="text" class="form-control" id="country">
+        <label>State?</label>
+        <input type="text" class="form-control" id="state">
+        <label>City?</label>
+        <input type="text" class="form-control" id="city">
+        <label>Date/Time?</label>
+        <input type="text" class="form-control" id="date">
+        <label>Shape?</label>
+        <input type="text" class="form-control" id="shape">
+      </div>
+      <div class="row">
+
+      <button type="submit" id="search" class="btn btn-default">Search</button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>date/time</th>
+            <th>city</th>
+            <th>state</th>
+            <th>country</th>
+            <th>shape</th>
+            <th>duration</th>
+            <th>comments</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="pagination">
+
+  </div>
+  </div>
+
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" charset="utf8" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.2.min.js"></script>
+  <script type="text/javascript" charset="utf8" src="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/jquery.dataTables.min.js"></script>
+  <script src="data.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
